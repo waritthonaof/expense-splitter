@@ -1,4 +1,45 @@
-# React + TypeScript + Vite
+## Simple Expense Splitter Application
+
+This simple splitting expenses application built with React, TypeScript, React Hooks, Redux Toolkit, and Tailwind CSS. It provides a user-friendly interface for tracking and managing expenses. 
+
+## Getting Started
+
+First, run the development server:
+
+```bash
+
+# Install dependencies
+npm install
+
+# Start the application
+npm run dev
+
+```
+
+## Demo
+
+You can find a live demo of the Expense Splitter at [Live Demo](expense-splitter-mu.vercel.app)
+
+
+## Features
+
+- Create new group
+- Add or remove participants involved in the expense sharing
+- Add or remove details of individual expenses, including the amount spent
+- Automatically calculates the total expense and the share of each participant 
+- Responsive design
+
+## Technologies Used
+
+- React + TypeScript + Vite
+- Redux Toolkit
+- Tailwind CSS
+
+### Copyright and license
+
+This project is licensed under the MIT License.
+
+## React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
