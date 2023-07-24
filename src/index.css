@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .input {
+    @apply rounded-full border-stone-400 px-4 py-2 text-sm transition-all duration-300 
+    placeholder:text-stone-400 focus:outline-none focus:ring focus:ring-green-400 focus:border-green-400 md:px-6 md:py-3;
+  }
+
+  .ns::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+}
